@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Aventura Thalassa</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="./img/cenario-passo0.png" alt="Cenário inicial">
+            <p>Mia, uma jovem cientista, encontra um diário antigo numa livraria esquecida no subúrbio. O diário menciona uma ilha misteriosa chamada Thalassa, cheia de segredos científicos e fenômenos inexplicáveis.</p> 
+            <button class="btn-proximo" data-proximo="1">Ler o diário</button> 
+            <button class="btn-proximo" data-proximo="2">Ignorar o diário</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="./img/diario-antigo.jpg" alt="">
+            <p>Mia lê o diário e descobre uma pista sobre uma tecnologia avançada perdida na ilha de Thalassa.</p>
+            <button class="btn-proximo" data-proximo="3">Decifrar as pistas sozinha</button> 
+            <button class="btn-proximo" data-proximo="4">Procurar ajuda de um especialista</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Mia decide ignorar o diário e continuar com sua pesquisa atual, mas a ideia de Thalassa a atormenta.</p> 
+            <button class="btn-proximo" data-proximo="5">Voltar à livraria e pegar o diário</button> 
+            <button class="btn-proximo" data-proximo="6">Continuar ignorando o diário</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Mia tenta decifrar as pistas sozinha e descobre a localização da ilha.</p> 
+            <button class="btn-proximo" data-proximo="7">Viajar imediatamente para Thalassa</button> 
+            <button class="btn-proximo" data-proximo="8">Planejar a expedição com cuidado</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Mia encontra um criptógrafo que a ajuda a decifrar as pistas e a localização da ilha é revelada.</p> 
+            <button class="btn-proximo" data-proximo="9">Agradecer e partir para a ilha</button> 
+            <button class="btn-proximo" data-proximo="10">Convidar o criptógrafo para a expedição</button>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Mia volta à livraria, pega o diário e decide seguir as pistas.</p> 
+            <button class="btn-proximo" data-proximo="3">Decifrar as pistas sozinha</button> 
+            <button class="btn-proximo" data-proximo="4">Procurar ajuda de um especialista</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="./img/cenario-passo4-voltar-casa.png" alt="Cenário ao voltar para casa">
+            <p>Mia continua sua vida, mas o pensamento de Thalassa nunca a deixa. Ela sente que perdeu uma grande oportunidade.</p>
+            <p>Fim da Aventura.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="./img/cenario-passo11-cidade-perdida.png" alt="Explorando Thalassa">
+            <p>Mia decide viajar imediatamente para Thalassa, cheia de expectativas e receios.</p> 
+            <button class="btn-proximo" data-proximo="11">Explorar a ilha</button> 
+            <button class="btn-proximo" data-proximo="12">Ficar atenta a perigos potenciais</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Mia planeja sua expedição com cuidado, reunindo suprimentos e formando uma equipe.</p> 
+            <button class="btn-proximo" data-proximo="7">Ir para Thalassa com tudo preparado</button>
+            <button class="btn-proximo" data-proximo="10">Levar o criptógrafo junto</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Mia agradece ao criptógrafo e parte para Thalassa, confiante de que está preparada para o que encontrará.</p> 
+            <button class="btn-proximo" data-proximo="11">Explorar a ilha</button> 
+            <button class="btn-proximo" data-proximo="12">Ficar atenta a perigos potenciais</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Mia e o criptógrafo chegam juntos à Thalassa e começam a explorar a ilha misteriosa.</p> 
+            <button class="btn-proximo" data-proximo="11">Explorar a ilha</button> 
+            <button class="btn-proximo" data-proximo="12">Ficar atentos a perigos</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="./img/cenario-passo0.png" alt="Explorando a ilha">
+            <p>Mia e sua equipe começam a explorar Thalassa e encontram ruínas de uma civilização perdida.</p> 
+            <button class="btn-proximo" data-proximo="13">Buscar a tecnologia perdida</button> 
+            <button class="btn-proximo" data-proximo="14">Explorar outras áreas da ilha</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Mia encontra sinais de perigos iminentes e decide desviar de certas áreas.</p> 
+            <button class="btn-proximo" data-proximo="13">Ir em busca da tecnologia</button> 
+            <button class="btn-proximo" data-proximo="14">Focar na segurança da equipe</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Mia encontra uma antiga base de pesquisa com tecnologias muito avançadas e decide ativá-las.</p> 
+            <button class="btn-proximo" data-proximo="15">Ativar a tecnologia</button> 
+
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Mia explora outras áreas e descobre que Thalassa guarda muitos mistérios, mas o verdadeiro poder está na antiga base de pesquisa.</p>
+            <p>Fim da Aventura.</p>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="./img/cenario-passo11-cidade-perdida.png" alt="Tecnologia ativada">
+            <p>Mia ativa a tecnologia e um novo mundo de possibilidades se abre, mas ela também percebe os perigos que essa descoberta pode trazer para o mundo.</p> 
+            <p>Fim da Aventura.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
